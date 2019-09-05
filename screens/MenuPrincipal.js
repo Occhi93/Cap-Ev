@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
         flex: 1,
         // flexDirection: 'row',
         alignItems: 'center',
-        position: 'absolute'
+        justifyContent: 'space-between'
     },
     boton: {
         flex: 1,
