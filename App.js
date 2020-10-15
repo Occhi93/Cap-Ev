@@ -1,10 +1,12 @@
-import React from 'react';
-import { Text, View } from 'react-native';
+//import React, {useRef} from 'react';
+//import { Text, View } from 'react-native';
 import { createStackNavigator, createAppContainer, createDrawerNavigator } from 'react-navigation';
 import CondServYPriv from './screens/CondServYPriv';
 import MenuPrincipal from './screens/MenuPrincipal';
 import RecEvi from './screens/RecEvi';
-import {DrawerNavigator, DrawerItems} from 'react-navigation'
+import RecEvi1 from './screens/RecEvi1';
+//import {captureRef,captureScreen,ViewShot} from 'react-native-view-shot'
+// import {DrawerNavigator, DrawerItems} from 'react-navigation'
 
 
 //  Aqui van todas las pantallas que se van a utilizar
@@ -13,6 +15,7 @@ const AppNavigator = createStackNavigator(
   CondServYPriv: CondServYPriv,
   MenuPrincipal: MenuPrincipal,
   RecEvi: RecEvi,
+  RecEvi1: RecEvi1
 },
 {
   initialRouteName: 'CondServYPriv',
